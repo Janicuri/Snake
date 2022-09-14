@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+  
+        body{
+
+    text-align: center;
+   
+}
+#core {
+    display:flex;
+    justify-content: space-around;
+}
+img{
+    display: none;
+}
+
+        .game{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+       
+    </style>
+    
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 id="login">Login pannel </h1><br>
+    <input type="text" name="" id="username" placeholder="Username" >
+    <br><br>
+    <input id="password" type="password" placeholder="Password">
+    <br><br>
+    
+    <button onclick="login()" id="btn">Log in</button>
+    <p id="response"></p><br>
+    <a href="register.html" id="a">Dont have an account yet ? Register.</a>
+    <br>
+    <br>
+    <p id="box">Playing in mobile device ? Check the box.</p>
+    <input id = "bt" type="checkbox"></input>
+    <br>
+        <canvas id="canvas" width = "495px" height="495px"></canvas>
+        <div id="all">
+        
+        </div>
+        <br>
+    </div>
+<div class="game">
+<h1 id="score"></h1>
+
+<h1 id="highscore"></h1>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
